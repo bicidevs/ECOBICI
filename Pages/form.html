@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CSS/form.css">
+    <title>Contacto</title>
+</head>
+
+<body>
+    <div class="banner">
+        <h1>Contacto</h1>
+    </div>
+
+    <div class="content">
+        <div class="img-container">
+            <img src="/IMG/form/atencion 2.jpg" alt="atencion al cliente">
+        </div>
+        <section class="form-section">
+            <div class="contact_form">
+                <div class="formulario">
+                    <h3 class="formtext1">Ante cualquier duda, sugerencia o reclamo</h3>
+                    <h3>Contactanos:</h3>
+                    <form action="https://formsubmit.co/zulmacris1995@gmail.com" method="post">
+                        <p class="p-form">
+                            <label for="nombre" class="colocar_nombre">Nombre y Apellido
+                                <span class="obligatorio">*</span>
+                            </label>
+                            <input type="text" name="introducir_nombre" id="nombre" required="obligatorio"
+                                placeholder="Escribe tu nombre">
+                        </p>
+                        <p class="p-form">
+                            <label for="telefono" class="colocar_telefono">Teléfono
+                            </label>
+                            <input type="tel" name="introducir_telefono" id="telefono"
+                                placeholder="Escribe tu teléfono">
+                        </p>
+                        <p class="p-form">
+                            <label for="email" class="colocar_email">Email
+                                <span class="obligatorio">*</span>
+                            </label>
+                            <input type="email" name="introducir_email" id="email" required="obligatorio"
+                                placeholder="Escribe tu Email">
+                        </p>
+                        <p class="p-form">
+                            <label for="mensaje" class="colocar_mensaje">Mensaje
+                                <span class="obligatorio">*</span>
+                            </label>
+                            <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje"
+                                required="obligatorio" placeholder="Deja aquí tu comentario..."></textarea>
+                        </p>
+                        <button class="sendbutton" type="submit" name="enviar_formulario" id="enviar">
+                            <p>Enviar</p>
+                        </button>
+                        <p class="aviso">
+                            <span class="obligatorio"> * </span>los campos son obligatorios.
+                        </p>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+
+</html>

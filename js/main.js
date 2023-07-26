@@ -44,6 +44,11 @@ selectEstaciones.addEventListener('change', () => {
   estacionSeleccionada = selectEstaciones.value;
   // Muestra el botón "Aceptar" cuando se selecciona cualquier opción que no sea "Seleccionar"
   btnAceptar.style.display = estacionSeleccionada !== 'Seleccionar' ? 'block' : 'none';
+
+  // Si la opción seleccionada es "Seleccionar", muestra la imagen predeterminada
+  if (estacionSeleccionada === 'Seleccionar') {
+    mostrarImagen('IMG/Imagen - power bi/Power bi - Datos en general.png'); // URL de la imagen predeterminada
+  }
 });
 
 function actualizarOpcionSeleccionada(estacionSeleccionada) {
@@ -60,15 +65,16 @@ btnAceptar.style.display = 'none';
 
 
 
-function mostrarImagen(powerBiImageUrl) {
+function mostrarImagen(base64Image) {
   // Muestra la imagen del gráfico de Power BI en el contenedor
-  const img = document.createElement('img');
-  img.src = powerBiImageUrl;
+  const img = new Image();
+  img.src = base64Image;
   img.alt = 'Gráfico de Power BI';
   img.style.maxWidth = '100%'; // Ajusta la imagen al ancho máximo del contenedor
   powerBIChart.innerHTML = ''; // Limpia el contenedor antes de agregar la imagen
   powerBIChart.appendChild(img);
 }
+
 
 function actualizarOpcionSeleccionada(estacionSeleccionada) {
   const opcionSeleccionada = document.getElementById('opcionSeleccionada');
@@ -84,11 +90,11 @@ function actualizarOpcionSeleccionada(estacionSeleccionada) {
 
 // Diccionario con las URL de las imágenes de Power BI para cada estación
 const imagenesEstaciones = {
-  'Parque del bajo': 'IMG/imagen - power bi/Parque del bajo.png',
-  'Pacifico': 'IMG/imagen - power bi/Estacion Pacifico.png',
-  'Constitucion': 'IMG/imagen - power bi/Estacion Constitucion.png',
-  'Congreso': 'IMG/imagen - power bi/Estacion Congreso.png',
-  'Barrancas de Belgrano': 'IMG/imagen - power bi/Estacion Barrancas de Belgrano.png'
+  'Parque del bajo': '/IMG/Imagen - power bi/Parque del bajo.png',
+  'Pacifico': '/IMG/imagen - power bi/Estacion Pacifico.png',
+  'Constitucion': '/IMG/imagen - power bi/Estacion Constitucion.png',
+  'Congreso': '/IMG/imagen - power bi/Estacion Congreso.png',
+  'Barrancas de Belgrano': '/IMG/imagen - power bi/Estacion Barrancas de Belgrano.png'
 };
 
 function getBase64Image(imageUrl) {

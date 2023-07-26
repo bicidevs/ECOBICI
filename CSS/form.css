@@ -1,0 +1,107 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.banner {
+    background-color: #EC7000; /* Naranja apagado */
+    text-align: center;
+    padding: 20px;
+}
+
+.banner h1 {
+    color: #fff;
+    font-size: 32px;
+    margin: 0;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.img-container {
+    flex: 1;
+    margin-right: 20px; /* Margen a la derecha */
+}
+
+.img-container img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.form-section {
+    flex: 1; /* Ocupa el espacio restante */
+    max-width: 600px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.contact_form {
+    text-align: center;
+}
+
+.formulario h3 {
+    color: #EC7000; /* Naranja apagado */
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.p-form {
+    margin-bottom: 20px;
+}
+
+.p-form label {
+    font-size: 18px;
+    color: #333;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.p-form input,
+.p-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.p-form textarea {
+    resize: vertical;
+    min-height: 120px;
+}
+
+.sendbutton {
+    background-color: #EC7000; /* Naranja apagado */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.aviso {
+    font-size: 14px;
+    color: #777;
+    margin-top: 10px;
+}
+
+/* Estilos para pantallas más pequeñas (responsive) */
+@media screen and (max-width: 600px) {
+    .content {
+        flex-direction: column;
+        align-items: center;
+    }
+    .img-container {
+        margin-right: 0; /* Eliminamos el margen a la derecha */
+    }
+    .form-section {
+        margin-top: 0;
+    }
+}

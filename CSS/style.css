@@ -58,8 +58,11 @@
 /* Main Presentacion */
 
 main{
-    background-color: rgb(199, 199, 199);
+    background-color: rgb(248, 248, 248);
     justify-content: center;
+
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    
 }
 
 .somobicidevs{
@@ -76,6 +79,8 @@ main{
     font-size: 35px;
     font-weight: 200;
     margin-bottom: 25px;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-weight: 700;
 }
 
 .separator {
@@ -88,13 +93,15 @@ main{
     margin-left: 150px;
     margin-right: 150px;
     text-align: start;
+    font-weight: 400;
 }
 
 .hayequipo{
     display: flex;
-  flex-wrap: wrap;
+    flex-wrap: wrap;
     justify-content: center;
     margin-top: 40px;
+    padding-bottom: 40px;
 }
 
 .img-team{
@@ -116,7 +123,12 @@ main{
 /* Card Profile */
 
 .container-card{
-    background-color: rgb(169, 169, 169);
+    /* background-color: rgb(169, 169, 169); */
+
+    background: #f12711;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f5af19, #f12711);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f5af19, #f12711); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 
     display: flex;
     flex-wrap: wrap;
@@ -128,7 +140,7 @@ main{
     margin-top: 50px;
     margin-bottom: 50px;
     width: 1000px;
-    height: 400px;
+    height: 420px;
     gap: 10px;
 
     /* styles */
@@ -175,34 +187,34 @@ main{
 
 .mediaicon {
 
-    color:hsl(0, 0%, 3%);
+    color:hsl(36, 100%, 50%);
     transition: color .5s;
 }
 
 .linkedinicon{
-    width: 60px;
-    height: 60px;
+    width: 40px;
+    height: 40px;
 }
 
 .giticon{
-    width: 50px;
-    height: 50px;
+    width: 32px;
+    height: 32px;
 
 }
 
 .mailicon{
-    width: 55px;
-    height: 55px;
+    width: 32px;
+    height: 32px;
 }
 
 .celicon{
-    width: 45px;
-    height: 45px;
+    width: 30px;
+    height: 30px;
 }
 
   
 .mediaicon:hover {
-  color: rgb(160, 160, 160)!important; 
+  color: rgb(255, 102, 0); 
 }
 
 /* ///////////////// */

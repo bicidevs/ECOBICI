@@ -38,6 +38,22 @@ body {
     font-weight: 400;
     line-height: 1.5;
   }
+
+  /* Estilos personalizados */
+
+/* Estilo por defecto de los enlaces del menú */
+.nav-item .nav-link {
+    color: #000; /* Letras negras por defecto */
+    font-weight: 600; /* Puedes ajustar el grosor de la fuente */
+    transition: color 0.3s; /* Transición suave para el cambio de color */
+}
+
+/* Estilo para cambiar el color del enlace cuando se pase el mouse por encima */
+.nav-item .nav-link:hover {
+    color: #fff; /* Letras blancas en el hover */
+}
+
+
 /* ///////// */
 
 /* Contenido principal */

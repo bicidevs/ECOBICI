@@ -8,6 +8,69 @@
 
 }
 
+.h2textbanner{
+    color: #fff;
+    text-align: start;
+
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+
+    font-size: 40px;
+    
+
+}
+
+.h3textbanner{
+    color: #fff;
+    text-align: start;
+
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+.text1banner{
+    color: #fff;
+    text-align: start; 
+
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+
+    font-size: 1rem;
+}
+
+.libanner{
+    color: #fff;
+    text-align: start;
+
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+
+    font-size: 1rem;
+}
+
+ul{
+    padding-bottom: 20px;
+}
+
+.logoecobanner{
+    display: flex;
+    justify-content: left;
+}
+
+.logoecobanner img{
+    max-width: 400px;
+}
+
+.bancobanner{
+    display: flex;
+    justify-content: center ;
+}
+
+.bicibanner{
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
 .button-discovery{
     background-color: #003399;
     color: #fff;
@@ -16,7 +79,10 @@
     border-radius: 5px;
     font-size: 18px;
     cursor: pointer;
+
 }
+
+
 
 
 /* HTML EQUIPO */
@@ -385,6 +451,24 @@ main{
 /* ZONA RESPONSIVE MAX-WIDTH 720PX */
 
 @media (max-width: 720px) {
+
+    /* HTML INDEX */
+
+    .logoecobanner img{
+       width: 300px;
+    }
+
+    .logoecobanner{
+        padding: 20px 0 20px 0;
+        justify-content: center;
+    }
+
+
+
+
+
+
+    /* HTML EQUIPO */
 
     /* Navbar */
     .navbar{

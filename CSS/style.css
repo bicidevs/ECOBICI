@@ -1,0 +1,595 @@
+/* Body */
+
+/* Navbar */
+.navbar{
+    background-color: #EC7000;
+    height: 100px;
+}
+
+.navbrand-img{
+    width: 300px;
+}
+
+.mainlinks{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.navicons{
+    display: flex;
+    gap: 30px;
+    
+}
+
+.menu1{
+    padding-left: 60px;
+    padding-right: 20px;
+}
+
+.navbar-nav .nav-link {
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-weight: 400;
+    line-height: 1.5;
+  }
+
+  /* Estilos personalizados */
+
+/* Estilo por defecto de los enlaces del menú */
+.nav-item .nav-link {
+    color: #000; /* Letras negras por defecto */
+    font-weight: 600; /* Puedes ajustar el grosor de la fuente */
+    transition: color 0.3s; /* Transición suave para el cambio de color */
+}
+
+/* Estilo para cambiar el color del enlace cuando se pase el mouse por encima */
+.nav-item .nav-link:hover {
+    color: #fff; /* Letras blancas en el hover */
+}
+
+/* Estilo para el enlace activo, cuando se encuentra en la vista actual */
+.nav-item .nav-link.active {
+    color: #fff; /* Letras blancas cuando está activo */
+}
+
+/* ///////// */
+
+
+/* Main Presentacion */
+
+main{
+    background-color: rgb(248, 248, 248);
+    justify-content: center;
+
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    
+}
+
+.somobicidevs{
+    display: block;
+    justify-content: center;
+}
+
+.solothis{
+    padding-top: 50px;
+}
+
+.h2-presentation {
+    text-align: center;
+    font-size: 35px;
+    font-weight: 200;
+    margin-bottom: 25px;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-weight: 700;
+}
+
+.separator {
+    width: 250px;
+    margin: 30px auto 40px;
+    position: relative;
+}
+
+.parrafo-principal1{
+    margin-left: 150px;
+    margin-right: 150px;
+    text-align: start;
+    font-weight: 400;
+}
+
+.hayequipo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 40px;
+    padding-bottom: 40px;
+}
+
+.img-team{
+    width: 1000px;
+    border: 1px solid rgba(0,0,0,.125);
+
+    box-shadow: 5px 5px 10px rgba(239, 227, 213, 0.4);
+    border-radius: 12px;
+}
+
+.texts-team{
+    margin-top: 40px;
+    gap: 10px;
+    justify-self: end;
+}
+
+/* ///////////////// */
+
+/* Card Profile */
+
+.container-card{
+    /* background-color: rgb(169, 169, 169); */
+
+    background: #f12711;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f5af19, #f12711);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f5af19, #f12711); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.main-card{
+    /* Medidas pasar medidas a rem */
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 1000px;
+    height: 420px;
+    gap: 10px;
+
+    /* styles */
+    border: 1px solid rgba(0,0,0,.125);
+    background-color: rgb(255, 255, 255);
+    box-shadow: 5px 5px 10px rgba(239, 227, 213, 0.4);
+    border-radius: 12px;
+
+    /* Flex */
+    display: flex;
+    
+    flex-flow: row wrap;
+
+}
+
+.profile-picture {
+    width: 250px;
+    justify-content: center;
+    /* flex: 1; */
+    padding: 40px;
+}
+
+.profile-img {
+
+    width: 200px;
+    border-radius: 100px;
+    border: 4px solid var(--bc, #fa9e00);
+}
+
+.profile-data{
+    flex: 1;
+    padding: 40px;
+}
+
+/* Inside of card, social icons */
+
+.contacts1{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.mediaicon {
+
+    color:hsl(36, 100%, 50%);
+    transition: color .5s;
+}
+
+.linkedinicon{
+    width: 40px;
+    height: 40px;
+}
+
+.giticon{
+    width: 32px;
+    height: 32px;
+
+}
+
+.mailicon{
+    width: 32px;
+    height: 32px;
+}
+
+.celicon{
+    width: 30px;
+    height: 30px;
+}
+
+  
+.mediaicon:hover {
+  color: rgb(255, 102, 0); 
+}
+
+/* ///////////////// */
+
+/* Footer */
+
+.footer1 {
+    background-color: #c2c2c2;
+    font-size: 20px; 
+    padding: 10px;
+    text-align: center;
+    color: hsl(0, 0%, 100%);
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-flow: row wrap; 
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+    /* BORRAR ESTO */
+    margin-top: 200px;
+}
+
+.biciimg {
+  
+
+    position: absolute;
+    bottom: 62%; /* Ajusta esta propiedad para controlar cuánto sobresale la imagen del footer */
+    left: 60%;
+    transform: translateY(-75%);
+
+}
+
+.imgbike{
+    width: 350px;
+}
+
+.iconandmedias{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    align-items: center;
+    padding-bottom: 50px;
+    padding-top: 30px;
+}
+
+.logofooter{
+    grid-column: 1;
+    justify-self: start;
+}
+
+.balogo2{
+    grid-column: 2;
+    justify-self: start;
+}
+
+.socialmedia{
+    grid-column: 6;
+}
+
+.othersinfooter{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr); ;
+    align-items: center;
+    padding-bottom: 50px;
+    gap: 30px;
+}
+
+.ba147{
+    grid-column: span 2;
+}
+
+.bajoven{
+    grid-column: 10;
+    
+}
+
+.bajovenimg{
+    width: 90px;
+}
+
+.utn{
+    grid-column: 11;
+}
+
+.utnimg{
+    width: 60px;
+}
+
+.ecobici{
+    grid-column: 12;
+}
+
+.ecobiciimg{
+    width: 60px;
+}
+
+.divider {
+    
+    margin: 2.5rem 0;
+}
+
+.proceso {
+    padding-bottom: 15px;
+}
+
+.copyright{
+    padding-bottom: 15px;
+}
+
+.writes{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    padding-bottom: 15px;
+    font-size: 14px;    
+}
+
+.foottext {
+    position: relative;
+}
+
+.writtenby {
+    justify-self: start;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+}
+
+.linkwrittenby{
+    text-decoration: none;
+    color: white;
+}
+
+.linkwrittenby:hover{
+    transition: 0.5s;
+    color: rgb(0, 255, 255);
+}
+
+.integral{
+    justify-self: start;
+}
+.mediaicon {
+    color:hsl(216, 85%, 39%);
+    transition: color .5s;
+  }
+  
+.mediaicon:hover {
+  color: aliceblue!important; 
+}
+
+.linkprocess {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* /////////////////////////// */
+
+
+/* ZONA RESPONSIVE MAX-WIDTH 720PX */
+
+@media (max-width: 720px) {
+
+    /* Navbar */
+    .navbar{
+        height: auto;
+    }
+
+    .navbrand-img{
+        width: 100px;
+        content: url(/IMG/Ecobicilogosmall.png);
+        margin-left: 20px;
+    }
+
+    .navicons{
+        display: none;
+    }
+
+    .menu1{
+        display: flex;
+        justify-content: center;
+    }
+
+
+ 
+    /* Main Presentacion */
+
+    .separator{
+        width: auto;
+    }
+
+    .parrafo-principal1{
+        margin-left: 20px;
+        margin-right: 20px;
+
+    }
+    /* /////////////// */
+
+    /* Card Profile */
+
+    .main-card{
+        display: flex;
+        max-width: 516px;
+        height: auto;
+        margin-left: 20px;
+        margin-right: 20px;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .profile-picture {
+        display: flex;
+        justify-content: center;
+        padding: 40px 40px 0px 40px;
+    }
+
+    .profile-data{
+        text-align: center;
+        padding-top: 10px;
+        
+    }
+
+    .cargo {
+        padding-bottom: 10px;
+    }
+
+    .contentprofile-data{
+        text-align: center;
+        padding-bottom: 10px;
+    }
+
+
+
+
+    /* footer */
+
+    .footer1 {
+        font-size: 20px;
+        position: relative;       
+    }
+
+    .containerofgrids{
+        display: block;
+        justify-content: center;
+    }
+
+    .iconandmedias {
+        display: flex;
+    flex-flow: row wrap;
+        /* display: block; */
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+        
+    }
+
+
+    .othersinfooter {
+        display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+
+        /* display: grid;
+        grid-template-columns: 1fr;
+        justify-content: center; */
+        align-items: center;
+    }
+
+    .otherslink {
+        padding-bottom: 10px;
+    }
+
+    .writes {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .logofooter {
+        justify-self: unset;
+        max-width: 80%;
+        height: auto;
+    }
+
+    .socialmedia {
+        padding-top: 10px;
+        margin-top: 10px;
+    }
+
+    .integral{
+        justify-self: initial;
+    }
+
+    .writtenby {
+        justify-self: initial;
+    }
+
+    .biciimg {
+  
+        position: absolute;
+        /* Ajusta esta propiedad para controlar cuánto sobresale la imagen del footer */
+        
+        bottom: 97%; 
+        left: 20%;
+        transform: none; 
+        justify-content: center;
+    
+    }
+
+    .imgbike {
+        max-width: 100%;
+        height: auto;
+    }
+
+    /* ///////// */
+}
+
+/* /////////// */
+
+/* ZONA RESPONSIVE MIN WIDTH 721PX MAX-WIDTH 1120PX */
+
+@media screen and (min-width:721px) and (max-width: 1120px) {
+
+    /* Footer */
+    .containerofgrids{
+            display: block;
+            justify-content: center;
+        }
+    
+        .iconandmedias {
+            display: block;
+            justify-content: center;
+            align-items: center;
+        }
+    
+        .othersinfooter {
+            display: grid;
+            grid-template-columns: 1fr;
+            justify-content: center;
+            align-items: center;
+        }
+    
+        .otherslink {
+            padding-bottom: 10px;
+        }
+    
+        .writes {
+            display: grid;
+            grid-template-columns: 1fr;
+            justify-content: center;
+            align-items: center;
+        }
+    
+        .logofooter {
+            justify-self: unset;
+            max-width: 80%;
+            height: auto;
+        }
+    
+        .socialmedia {
+            padding-top: 10px;
+            margin-top: 10px;
+        }
+    
+        .integral{
+            justify-self: initial;
+        }
+    
+        .writtenby {
+            justify-self: initial;
+        }
+
+        /* ////////////// */
+    
+    }
+
+    /* /////////////////// */

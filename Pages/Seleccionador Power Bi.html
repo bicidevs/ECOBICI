@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Generador de pdf y jpg</title>
+  <link rel="stylesheet" href="/CSS/Seleccionador Power bi.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.68/pdfmake.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.68/vfs_fonts.js"></script>
+  <!-- favicon -->
+  
+  <link rel="icon" href="https://ecobici-proyect.netlify.app/img/favicon.ico">
+  <link rel="apple-touch-icon" href="https://ecobici-proyect.netlify.app/img/favicon.ico">
+</head>
+<body>
+  <div class="grid-container">
+
+  <label for="estaciones">Selecciona una estación:</label>
+  <select id="estaciones">
+    <!-- Las opciones se generarán dinámicamente con JavaScript -->
+  </select>
+
+  <button id="btnAceptar">Aceptar</button>
+
+  <div id="opcionSeleccionada">Estación seleccionada:</div>
+
+  <div id="powerBIChart" class="chart-container">
+    <!-- Imagen predeterminada: Power bi - Datos en general.png -->
+    <img id="imagenPredeterminada" src="/IMG/imagen - power bi/Power bi - Datos en general.png" alt="Gráfico de Power BI">
+  </div>
+
+  <button id="btnConvertirPDF">Convertir a PDF</button>
+  <button id="btnConvertirJPG">Convertir a JPG</button>
+
+  <script src="/js/main.js" ></script>
+</div>
+</body>
+</html>

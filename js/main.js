@@ -207,3 +207,13 @@ btnConvertirPDF.addEventListener('click', async () => {
     console.error(error);
   }
 });
+
+
+const botonDobleEnlace = document.getElementById("dobleEnlace");
+
+botonDobleEnlace.addEventListener("click", function() {
+    // Abrir enlaces en nuevas pestañas cuando el botón es clickeado
+    window.open("https://play.google.com/store/apps/details?id=com.tembici.ecobici");
+    window.open("https://apps.apple.com/us/app/ba-ecobici-por-tembici/id1452339584");
+});
+

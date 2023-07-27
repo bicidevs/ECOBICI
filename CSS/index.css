@@ -119,6 +119,7 @@ p {
 }
 
 label {
+    text-align: start;
     font-size: 20px;
     color: #333;
     font-weight: bold;

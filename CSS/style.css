@@ -222,7 +222,7 @@ main{
 /* Footer */
 
 .footer1 {
-    background-color: hsl(0, 0%, 36%);
+    background-color: #c2c2c2;
     font-size: 20px; 
     padding: 10px;
     text-align: center;
@@ -363,6 +363,11 @@ main{
   
 .mediaicon:hover {
   color: aliceblue!important; 
+}
+
+.linkprocess {
+    text-decoration: none;
+    color: #fff;
 }
 
 /* /////////////////////////// */

@@ -6,9 +6,7 @@ body {
 
 /* Navbar */
 /* Estilo para centrar el enlace "Inicio" en la barra de navegación */
-.navbar-nav {
-    margin-left: auto;
-}
+
 h1 {
     margin-left: 5em; /* Ajusta el espacio entre el título y el enlace "Inicio" */
     font-size: 24px; /* Ajusta el tamaño del título */
@@ -341,9 +339,7 @@ h1 {
 @media (max-width: 720px) {
 
     /* Navbar */
-    .navbar{
-        height: auto;
-    }
+  
 
     .navbrand-img{
         width: 100px;

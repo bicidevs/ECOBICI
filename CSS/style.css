@@ -1,3 +1,12 @@
+/* HTML INDEX  */
+
+.bannermain{
+    background-color: #EC7000;
+
+}
+
+
+/* HTML EQUIPO */
 /* Body */
 
 /* Navbar */
@@ -116,7 +125,11 @@ main{
 /* Card Profile */
 
 .container-card{
-    background-color: rgb(169, 169, 169);
+    /* background-color: rgb(169, 169, 169); */
+    background: #f12711;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f5af19, #f12711);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f5af19, #f12711); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 
     display: flex;
     flex-wrap: wrap;

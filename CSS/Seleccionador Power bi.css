@@ -1,0 +1,73 @@
+/* Estilos generales */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
+}
+
+/* Contenedor principal utilizando CSS Grid */
+.grid-container {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+
+.container {
+  max-width: 800px;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Estilos para el contenedor del gráfico de Power BI */
+#powerBIChart {
+  margin-top: 20px;
+  text-align: center;
+}
+
+/* Estilos para la imagen del gráfico de Power BI */
+#powerBIChart img {
+  max-width: 100%;
+  max-height: 400px; /* Puedes ajustar este valor según el tamaño deseado */
+}
+
+/* Estilos para la lista desplegable */
+#estaciones {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+}
+
+/* Estilos para el botón "Aceptar" */
+#btnAceptar {
+  display: none;
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #EC7000; 
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+#btnAceptar:hover {
+  background-color: #ff8533;
+}
+
+/* Estilos para los botones de conversión */
+#btnConvertirPDF,
+#btnConvertirJPG {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #EC7000;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Estilos para el texto "Estación seleccionada" */
+#opcionSeleccionada {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 20px;
+}

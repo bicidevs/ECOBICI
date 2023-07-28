@@ -1,3 +1,90 @@
+/* Htmal */
+/* Banner explicativo de la pagina */
+.bannermain{
+    background-color: #EC7000;
+    padding: 40px 0 40px 0;
+
+}
+
+.h2textbanner{
+    color: #fff;
+    text-align: start;
+
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+
+    font-size: 40px;
+    
+
+}
+
+.h3textbanner{
+    color: #fff;
+    text-align: start;
+
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+.text1banner{
+    color: #fff;
+    text-align: start; 
+
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+
+    font-size: 1rem;
+}
+
+.libanner{
+    color: #fff;
+    text-align: start;
+
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+
+    font-size: 1rem;
+}
+
+ul{
+    padding-bottom: 20px;
+}
+
+.logoecobanner{
+    display: flex;
+    justify-content: left;
+}
+
+.logoecobanner img{
+    max-width: 400px;
+}
+
+.bancobanner{
+    display: flex;
+    justify-content: center ;
+}
+
+.bicibanner{
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.button-discovery{
+    background-color: #003399;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    text-decoration: none;
+
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+
+    font-size: 20px;
+}
+
+
 /* Body */
 
 /* Navbar */
@@ -226,7 +313,7 @@ main{
     background: #f12711;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #f5af19, #f12711);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #f5af19, #f12711); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    
+
     font-size: 20px; 
     padding: 10px;
     text-align: center;

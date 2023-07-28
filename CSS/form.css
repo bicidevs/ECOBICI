@@ -335,7 +335,9 @@ h1 {
 
     /* Navbar */
   
-
+    .navbar {
+        height: auto;
+    }
     .navbrand-img{
         width: 100px;
         content: url(/IMG/Ecobicilogosmall.png);

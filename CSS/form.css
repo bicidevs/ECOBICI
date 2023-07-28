@@ -78,11 +78,6 @@ h1 {
 /* ///////// */
 
 
-/* Para centrar verticalmente el contenido en la página */
-.container {
-    min-height: 100vh;
-}
-
 /* Estilos adicionales para el formulario, puedes personalizarlo según tus necesidades */
 .text-center h1 {
     font-size: 32px;
@@ -339,7 +334,9 @@ h1 {
 @media (max-width: 720px) {
 
     /* Navbar */
-  
+  .navbar {
+    height: auto;
+}
 
     .navbrand-img{
         width: 100px;

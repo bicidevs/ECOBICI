@@ -183,15 +183,22 @@ h1 {
 /* Footer */
 
 .footer1 {
-    background-color: hsl(0, 0%, 36%);
-    font-size: 20px; 
+    /* background-color: hsl(0, 0%, 36%); */
+
+    background: #f12711;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f5af19, #f12711);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f5af19, #f12711);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-size: 20px;
     padding: 10px;
     text-align: center;
     color: hsl(0, 0%, 100%);
     width: 100%;
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
-    flex-flow: row wrap; 
+    flex-flow: row wrap;
     justify-content: center;
     align-items: center;
     position: relative;
@@ -335,9 +342,7 @@ h1 {
 
     /* Navbar */
   
-    .navbar {
-        height: auto;
-    }
+
     .navbrand-img{
         width: 100px;
         content: url(/IMG/Ecobicilogosmall.png);

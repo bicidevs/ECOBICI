@@ -6,9 +6,7 @@ body {
 
 /* Navbar */
 /* Estilo para centrar el enlace "Inicio" en la barra de navegación */
-.navbar-nav {
-    margin-left: auto;
-}
+
 h1 {
     margin-left: 5em; /* Ajusta el espacio entre el título y el enlace "Inicio" */
     font-size: 24px; /* Ajusta el tamaño del título */
@@ -79,11 +77,6 @@ h1 {
   }
 /* ///////// */
 
-
-/* Para centrar verticalmente el contenido en la página */
-.container {
-    min-height: 100vh;
-}
 
 /* Estilos adicionales para el formulario, puedes personalizarlo según tus necesidades */
 .text-center h1 {
@@ -341,9 +334,9 @@ h1 {
 @media (max-width: 720px) {
 
     /* Navbar */
-    .navbar{
-        height: auto;
-    }
+  .navbar {
+    height: auto;
+}
 
     .navbrand-img{
         width: 100px;

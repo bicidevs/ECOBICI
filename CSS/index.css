@@ -61,6 +61,22 @@ body {
     margin-top: 30px;
 }
 
+.container .titulo-estacion h1{
+    color: #EC7000;
+}
+
+.container .titulo-pdf{
+    color: #EC7000;
+   margin-left: 20%;
+    
+}
+
+.container .titulo-pdf h2{
+    color: #EC7000;
+    margin-right: 20%;   
+    margin-left: -10%;   
+}
+
 /* Título */
 h1 {
     font-size: 48px;
@@ -350,7 +366,17 @@ select {
         justify-content: center;
     }
 
-
+    .container .titulo-pdf{
+        color: #EC7000;
+        margin: 0;
+        display: grid;
+        grid-gap: 10px;
+    }
+    
+    .container .titulo-pdf h2{
+         margin: 0 2%;
+    }
+    
  
     /* Main Presentacion */
 

@@ -341,9 +341,9 @@ h1 {
 @media (max-width: 720px) {
 
     /* Navbar */
-  .navbar {
-    height: auto;
-}
+    .navbar {
+        height: auto;
+    }
 
     .navbrand-img{
         width: 100px;

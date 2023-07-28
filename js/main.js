@@ -178,7 +178,7 @@ btnConvertirPDF.addEventListener('click', async () => {
       content: [
         { text: 'Eligió la estación:', style: 'header' },
         { text: estacionSeleccionada, style: 'estacion' },
-        { image: base64Image,  width: 700, height: 300, alignment: 'center' },
+        { image: base64Image,  width: 500, height: 300, alignment: 'center' },
         
 
       ],

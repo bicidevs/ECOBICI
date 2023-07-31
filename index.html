@@ -36,12 +36,13 @@
         integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
 
     <!-- Estilos personalizados -->
-    <link rel="stylesheet" href="/CSS/index.css">
     <link rel="stylesheet" href="/CSS/login.css">
     <link rel="stylesheet" href="/CSS/style.css">
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.68/pdfmake.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.68/vfs_fonts.js"></script>
+    
+    <script src="https://www.youtube.com/iframe_api"></script>
 </head>
 
 <body>
@@ -59,10 +60,10 @@
             <div class="collapse navbar-collapse mainlinks" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item menu1">
-                        <a class="nav-link asd" aria-current="page" href="index.html">Inicio</a>
+                        <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
                     </li>
                     <li class="nav-item menu1">
-                        <a class="nav-link active" href="Pages/Equipo.html">Equipo</a>
+                        <a class="nav-link asd" href="Pages/Equipo.html">Equipo</a>
                     </li>
                     <li class="nav-item menu1 textnav">
                         <a class="nav-link textnav" href="Pages/Contacto.html">Contacto</a>
@@ -116,13 +117,17 @@
     <div class="hero">
         <div class="video-background">
             <div class="video-foreground">
-                <iframe
-                    src="https://www.youtube.com/embed/jyTOCawP9vc?autoplay=1&controls=0&mute=1&loop=1&playlist=jyTOCawP9vc"
-                    title="YouTube video player" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    allowfullscreen></iframe>
+              <iframe
+                id="youtube-video"
+                src="https://www.youtube.com/embed/jyTOCawP9vc?autoplay=1&controls=0&mute=1&loop=1&playlist=jyTOCawP9vc"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+              ></iframe>
             </div>
-        </div>
+          </div>
+          
         <div class="login-form">
             <h4>Empezá a usar tu Ecobici hoy</h4>
             <button class="buttonlogin" id="dobleEnlace">REGISTRATE</button>
@@ -320,6 +325,7 @@
         crossorigin="anonymous"></script>
 
     <script src="/js/main.js"></script>
+
     <!-- Add these in the <head> section of your HTML -->
 
     <!-- JS AOS -->

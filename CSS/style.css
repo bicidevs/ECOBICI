@@ -82,8 +82,39 @@ ul{
     font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
 
     font-size: 20px;
+    margin-bottom: 20px; /* Espacio debajo del botón */
+
 }
 
+/* Video */
+.video-background {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; /* Proporción 16:9 para mantener el aspecto del video */
+    overflow: hidden;
+  }
+  
+  .video-foreground {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .video-foreground iframe {
+    width: 100%;
+    height: 100%;
+    pointer-events: none; /* Evita que los eventos de clic afecten al reproductor de video */
+  }
+  
+  /* Oculta los controles del reproductor de video */
+  .video-foreground iframe {
+    opacity: 1.4; /* Establece la opacidad para resaltar que es un video incrustado */
+  }
+  
+  
+/**/
 
 /* Body */
 
@@ -135,12 +166,131 @@ ul{
 }
 
 /* Estilo para el enlace activo, cuando se encuentra en la vista actual */
-.nav-item .nav-link.active {
+.navbar-nav .nav-link.active{
     color: #fff; /* Letras blancas cuando está activo */
 }
 
 /* ///////// */
+/* Contenido principal */
 
+
+/* Título */
+h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #333; /* Color del título */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Subtítulo */
+h2 {
+    font-size: 32px;
+    font-weight: bold;
+    color: #EC7000; /* Color del subtítulo */
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+
+
+/* Botón */
+.btn-primary {
+    background-color: #EC7000; /* Color del botón */
+    border-color: #EC7000; /* Color del borde del botón */
+    font-size: 24px;
+    font-weight: bold;
+    padding: 15px 40px;
+    border-radius: 10px;
+    margin: 0 auto;
+    display: block;
+    max-width: 200px;
+    text-align: center;
+    color: #fff; /* Color del texto del botón */
+}
+
+.btn-primary:hover {
+    background-color: #FF914D; /* Color del botón al pasar el cursor */
+    border-color: #FF914D; /* Color del borde del botón al pasar el cursor */
+}
+
+/* Sección Power BI */
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 30px;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+label {
+    text-align: start;
+    font-size: 20px;
+    color: #333;
+    font-weight: bold;
+}
+
+select {
+    font-size: 18px;
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+#opcionSeleccionada {
+    font-size: 20px;
+    color: #333;
+    font-weight: bold;
+    text-align: center;
+}
+
+.chart-container {
+    text-align: center;
+}
+
+#imagenPredeterminada {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+#btnAceptar,
+#btnConvertirPDF,
+#btnConvertirJPG {
+    background-color: #EC7000;
+    border-color: #EC7000;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 15px 40px;
+    border-radius: 10px;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#btnAceptar:hover,
+#btnConvertirPDF:hover,
+#btnConvertirJPG:hover {
+    background-color: #FF914D;
+    border-color: #FF914D;
+}
+
+.titulo-pdf {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px; /* Agrega un espacio de 10px entre los botones */
+    color: #ec7000;
+    text-align: center; /* Centra el texto horizontalmente */
+  }
+  
+  .titulo-pdf h2 {
+    grid-column: span 2; /* Hace que el título ocupe dos columnas completas */
+    margin-left: 0px; /* Elimina los márgenes predeterminados para h2 */
+  }
+ 
 
 /* Main Presentacion */
 
@@ -161,7 +311,7 @@ main{
     padding-top: 50px;
 }
 
-.h2-presentation {
+.somobicidevs .h2-presentation {
     text-align: center;
     font-size: 35px;
     font-weight: 200;
@@ -682,5 +832,49 @@ main{
         /* ////////////// */
     
     }
+    @media screen and (max-width: 768px) {
+        .grid-container {
+            grid-template-columns: 1fr; /* Cambiar el diseño a una sola columna */
+            grid-gap: 20px; /* Reducir el espacio entre elementos */
+            padding: 30px; /* Reducir el espacio de relleno */
+        }
+    
+        label {
+            font-size: 16px; /* Reducir el tamaño de fuente */
+        }
+    
+        select {
+            font-size: 14px; /* Reducir el tamaño de fuente */
+        }
+    
+        #opcionSeleccionada {
+            font-size: 16px; /* Reducir el tamaño de fuente */
+        }
+    
+        /* Estilos adicionales para los botones en dispositivos pequeños */
+        #btnAceptar,
+        #btnConvertirPDF,
+        #btnConvertirJPG {
+            font-size: 18px; /* Reducir el tamaño de fuente */
+            padding: 10px 20px; /* Reducir el espacio de relleno */
+        }
 
+      /* Estilos para pantallas grandes */
+    .button-discovery {
+      display: flex;
+      justify-content: center;
+      gap: 20px; /* Espacio entre los botones */
+    }
+  }
+        
+  /* Estilos para pantallas pequeñas */
+@media screen and (max-width: 767px) {
+    .button-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 10px; /* Espacio entre los botones */
+    }
+}
+    
     /* /////////////////// */

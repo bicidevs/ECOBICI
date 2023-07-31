@@ -217,3 +217,21 @@ botonDobleEnlace.addEventListener("click", function() {
     window.open("https://apps.apple.com/us/app/ba-ecobici-por-tembici/id1452339584");
 });
 
+const player = new YT.Player('youtube-video', {
+  events: {
+    onReady: onPlayerReady,
+    onStateChange: onPlayerStateChange
+  }
+});
+
+function onPlayerReady(event) {
+  event.target.mute();
+}
+
+function onPlayerStateChange(event) {
+  // 0 representa el estado de video terminado
+  if (event.data === 0) {
+    // Ocultar los controles del video
+    player.setOption('controls', 0);
+  }
+}

@@ -77,7 +77,6 @@ h1 {
   }
 /* ///////// */
 
-
 /* Estilos adicionales para el formulario, puedes personalizarlo según tus necesidades */
 .text-center h1 {
     font-size: 32px;
@@ -202,9 +201,6 @@ h1 {
     justify-content: center;
     align-items: center;
     position: relative;
-
-    /* BORRAR ESTO */
-    margin-top: 200px;
 }
 
 .biciimg {

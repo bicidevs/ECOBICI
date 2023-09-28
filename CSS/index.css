@@ -61,6 +61,22 @@ body {
     margin-top: 30px;
 }
 
+.container .titulo-estacion h1{
+    color: #EC7000;
+}
+
+.container .titulo-pdf{
+    color: #EC7000;
+   margin-left: 20%;
+    
+}
+
+.container .titulo-pdf h2{
+    color: #EC7000;
+    margin-right: 20%;   
+    margin-left: -10%;   
+}
+
 /* Título */
 h1 {
     font-size: 48px;
@@ -119,6 +135,7 @@ p {
 }
 
 label {
+    text-align: start;
     font-size: 20px;
     color: #333;
     font-weight: bold;
@@ -175,7 +192,11 @@ select {
 /* Footer */
 
 .footer1 {
-    background-color: hsl(0, 0%, 36%);
+    /* background-color: hsl(0, 0%, 36%); */
+
+    background: #f12711;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f5af19, #f12711);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f5af19, #f12711); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     font-size: 20px; 
     padding: 10px;
     text-align: center;
@@ -343,7 +364,17 @@ select {
         justify-content: center;
     }
 
-
+    .container .titulo-pdf{
+        color: #EC7000;
+        margin: 0;
+        display: grid;
+        grid-gap: 10px;
+    }
+    
+    .container .titulo-pdf h2{
+         margin: 0 2%;
+    }
+    
  
     /* Main Presentacion */
 

@@ -103,8 +103,11 @@ h1 {
 }
 
 .img-container {
+    display: flex;
     flex: 1;
-    margin-right: 20px; /* Margen a la derecha */
+    justify-content: center;
+    align-items: center;
+    
 }
 
 .img-container img {
@@ -144,7 +147,7 @@ h1 {
 
 .p-form input,
 .p-form textarea {
-    width: 100%;
+    width: 70%;
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
@@ -154,9 +157,12 @@ h1 {
 .p-form textarea {
     resize: vertical;
     min-height: 120px;
+    
 }
 
+
 .sendbutton {
+    width: 50%;
     background-color: #EC7000; /* Naranja apagado */
     color: #fff;
     border: none;
@@ -176,15 +182,22 @@ h1 {
 /* Footer */
 
 .footer1 {
-    background-color: hsl(0, 0%, 36%);
-    font-size: 20px; 
+    /* background-color: hsl(0, 0%, 36%); */
+
+    background: #f12711;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f5af19, #f12711);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f5af19, #f12711);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-size: 20px;
     padding: 10px;
     text-align: center;
     color: hsl(0, 0%, 100%);
     width: 100%;
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
-    flex-flow: row wrap; 
+    flex-flow: row wrap;
     justify-content: center;
     align-items: center;
     position: relative;
@@ -324,7 +337,7 @@ h1 {
 @media (max-width: 720px) {
 
     /* Navbar */
-    .navbar{
+    .navbar {
         height: auto;
     }
 
